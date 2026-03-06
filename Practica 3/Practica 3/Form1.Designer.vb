@@ -35,6 +35,23 @@ Partial Class Form1
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Resultado = New System.Windows.Forms.Label()
         Me.Calcular = New System.Windows.Forms.Button()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Materia6 = New System.Windows.Forms.TextBox()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Materia7 = New System.Windows.Forms.TextBox()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Materia8 = New System.Windows.Forms.TextBox()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Materia9 = New System.Windows.Forms.TextBox()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Materia10 = New System.Windows.Forms.TextBox()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Materia11 = New System.Windows.Forms.TextBox()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Materia13 = New System.Windows.Forms.TextBox()
+        Me.Materia12 = New System.Windows.Forms.TextBox()
+        Me.Mensaje = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
@@ -121,7 +138,7 @@ Partial Class Form1
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(324, 24)
+        Me.Label6.Location = New System.Drawing.Point(228, 24)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(112, 26)
         Me.Label6.TabIndex = 10
@@ -131,7 +148,7 @@ Partial Class Form1
         '
         Me.Resultado.AutoSize = True
         Me.Resultado.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Resultado.Location = New System.Drawing.Point(442, 24)
+        Me.Resultado.Location = New System.Drawing.Point(346, 24)
         Me.Resultado.Name = "Resultado"
         Me.Resultado.Size = New System.Drawing.Size(25, 26)
         Me.Resultado.TabIndex = 11
@@ -139,18 +156,173 @@ Partial Class Form1
         '
         'Calcular
         '
-        Me.Calcular.Location = New System.Drawing.Point(329, 66)
+        Me.Calcular.Location = New System.Drawing.Point(233, 66)
         Me.Calcular.Name = "Calcular"
         Me.Calcular.Size = New System.Drawing.Size(94, 51)
         Me.Calcular.TabIndex = 12
         Me.Calcular.Text = "Calcular promedio"
         Me.Calcular.UseVisualStyleBackColor = True
         '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(58, 156)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(53, 13)
+        Me.Label7.TabIndex = 13
+        Me.Label7.Text = "Biologia II"
+        '
+        'Materia6
+        '
+        Me.Materia6.Location = New System.Drawing.Point(123, 149)
+        Me.Materia6.Name = "Materia6"
+        Me.Materia6.Size = New System.Drawing.Size(100, 20)
+        Me.Materia6.TabIndex = 14
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(40, 182)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(68, 13)
+        Me.Label8.TabIndex = 15
+        Me.Label8.Text = "Ed. Física IV"
+        '
+        'Materia7
+        '
+        Me.Materia7.Location = New System.Drawing.Point(123, 175)
+        Me.Materia7.Name = "Materia7"
+        Me.Materia7.Size = New System.Drawing.Size(100, 20)
+        Me.Materia7.TabIndex = 16
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Location = New System.Drawing.Point(63, 208)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(45, 13)
+        Me.Label9.TabIndex = 17
+        Me.Label9.Text = "Física II"
+        '
+        'Materia8
+        '
+        Me.Materia8.Location = New System.Drawing.Point(123, 201)
+        Me.Materia8.Name = "Materia8"
+        Me.Materia8.Size = New System.Drawing.Size(100, 20)
+        Me.Materia8.TabIndex = 18
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Location = New System.Drawing.Point(19, 230)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(89, 13)
+        Me.Label10.TabIndex = 19
+        Me.Label10.Text = "Form. Humana IV"
+        '
+        'Materia9
+        '
+        Me.Materia9.Location = New System.Drawing.Point(123, 227)
+        Me.Materia9.Name = "Materia9"
+        Me.Materia9.Size = New System.Drawing.Size(100, 20)
+        Me.Materia9.TabIndex = 20
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Location = New System.Drawing.Point(51, 256)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(60, 13)
+        Me.Label11.TabIndex = 21
+        Me.Label11.Text = "Literatura II"
+        '
+        'Materia10
+        '
+        Me.Materia10.Location = New System.Drawing.Point(123, 253)
+        Me.Materia10.Name = "Materia10"
+        Me.Materia10.Size = New System.Drawing.Size(100, 20)
+        Me.Materia10.TabIndex = 22
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Location = New System.Drawing.Point(35, 282)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(76, 13)
+        Me.Label12.TabIndex = 23
+        Me.Label12.Text = "Paraescolar IV"
+        '
+        'Materia11
+        '
+        Me.Materia11.Location = New System.Drawing.Point(123, 279)
+        Me.Materia11.Name = "Materia11"
+        Me.Materia11.Size = New System.Drawing.Size(100, 20)
+        Me.Materia11.TabIndex = 24
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Location = New System.Drawing.Point(13, 334)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(95, 13)
+        Me.Label13.TabIndex = 25
+        Me.Label13.Text = "Taller de Laboral II"
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.Location = New System.Drawing.Point(25, 308)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(83, 13)
+        Me.Label14.TabIndex = 26
+        Me.Label14.Text = "Taller de com. II"
+        '
+        'Materia13
+        '
+        Me.Materia13.Location = New System.Drawing.Point(122, 331)
+        Me.Materia13.Name = "Materia13"
+        Me.Materia13.Size = New System.Drawing.Size(100, 20)
+        Me.Materia13.TabIndex = 27
+        '
+        'Materia12
+        '
+        Me.Materia12.Location = New System.Drawing.Point(123, 305)
+        Me.Materia12.Name = "Materia12"
+        Me.Materia12.Size = New System.Drawing.Size(100, 20)
+        Me.Materia12.TabIndex = 28
+        '
+        'Mensaje
+        '
+        Me.Mensaje.AutoSize = True
+        Me.Mensaje.BackColor = System.Drawing.SystemColors.Control
+        Me.Mensaje.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Mensaje.Location = New System.Drawing.Point(259, 178)
+        Me.Mensaje.Name = "Mensaje"
+        Me.Mensaje.Size = New System.Drawing.Size(0, 25)
+        Me.Mensaje.TabIndex = 29
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(414, 367)
+        Me.Controls.Add(Me.Mensaje)
+        Me.Controls.Add(Me.Materia12)
+        Me.Controls.Add(Me.Materia13)
+        Me.Controls.Add(Me.Label14)
+        Me.Controls.Add(Me.Label13)
+        Me.Controls.Add(Me.Materia11)
+        Me.Controls.Add(Me.Label12)
+        Me.Controls.Add(Me.Materia10)
+        Me.Controls.Add(Me.Label11)
+        Me.Controls.Add(Me.Materia9)
+        Me.Controls.Add(Me.Label10)
+        Me.Controls.Add(Me.Materia8)
+        Me.Controls.Add(Me.Label9)
+        Me.Controls.Add(Me.Materia7)
+        Me.Controls.Add(Me.Label8)
+        Me.Controls.Add(Me.Materia6)
+        Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Calcular)
         Me.Controls.Add(Me.Resultado)
         Me.Controls.Add(Me.Label6)
@@ -184,4 +356,21 @@ Partial Class Form1
     Friend WithEvents Label6 As Label
     Friend WithEvents Resultado As Label
     Friend WithEvents Calcular As Button
+    Friend WithEvents Label7 As Label
+    Friend WithEvents Materia6 As TextBox
+    Friend WithEvents Label8 As Label
+    Friend WithEvents Materia7 As TextBox
+    Friend WithEvents Label9 As Label
+    Friend WithEvents Materia8 As TextBox
+    Friend WithEvents Label10 As Label
+    Friend WithEvents Materia9 As TextBox
+    Friend WithEvents Label11 As Label
+    Friend WithEvents Materia10 As TextBox
+    Friend WithEvents Label12 As Label
+    Friend WithEvents Materia11 As TextBox
+    Friend WithEvents Label13 As Label
+    Friend WithEvents Label14 As Label
+    Friend WithEvents Materia13 As TextBox
+    Friend WithEvents Materia12 As TextBox
+    Friend WithEvents Mensaje As Label
 End Class
